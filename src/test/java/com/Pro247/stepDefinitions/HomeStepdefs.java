@@ -3,6 +3,7 @@ package com.Pro247.stepDefinitions;
 import com.Pro247.pages.ContactsPage;
 import com.Pro247.pages.HomePage;
 import com.Pro247.utilities.BrowserUtils;
+import com.Pro247.utilities.ConfigurationReader;
 import com.Pro247.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -23,7 +24,7 @@ public class HomeStepdefs {
 
     @Given("User is on the Contact page")
     public void userIsOnTheContactPage() {
-        Driver.get().get("https://mohammedzakaria2.github.io/contacts-list/apps/contacts");
+        Driver.get().get(ConfigurationReader.get("url"));
 
     }
 
@@ -88,13 +89,11 @@ public class HomeStepdefs {
 
     }
 
-
     @When("User clicks the three line icon")
     public void userClicksTheThreeLineIcon() {
 
         homePage.threeLineIcon.click();
         BrowserUtils.waitFor(1);
-
 
     }
 

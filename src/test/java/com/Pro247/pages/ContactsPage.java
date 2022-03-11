@@ -16,36 +16,11 @@ public class ContactsPage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-
-    @FindBy(xpath = "//a[normalize-space()='Clementine Bauch']")
-    public WebElement nameBauch;
-
-    @FindBy(xpath = "//a[normalize-space()='Chelsey Dietrich']")
-    public WebElement nameChelsey;
-
-    @FindBy(xpath = "//a[normalize-space()='Clementina DuBuque']")
-    public WebElement nameClementina;
-
-    @FindBy(xpath = "(//h1[@class='contact_details_line_value'])[1]")
-    public WebElement getEditName;
-
     @FindBy(xpath = "(//h1[@class='contact_details_line_value'])[2]")
     public WebElement getEditPhone;
 
     @FindBy(xpath = "(//h1[@class='contact_details_line_value'])[3]")
     public WebElement getEditEmail;
-
-    @FindBy(xpath = "//button[@class='control_button delete btn']")
-    public WebElement deleteBtn;
-
-    @FindBy(xpath = "//button[@class='control_button edit btn']")
-    public WebElement confirmBtn;
-
-
-
-
-
-
 
     @FindBy(xpath = "//button[@class='header_button btn']")
     public WebElement newAddBut;
@@ -62,20 +37,11 @@ public class ContactsPage {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement submit;
 
-    @FindBy(css = "[class='control_button edit btn']")
-    public WebElement editBtn;
-
     @FindBy(css = "input[name='name']")
     public WebElement uptoPage;
 
     @FindBy(css = "[class='contact_image']")
     public WebElement uptoContactImage;
-
-
-
-    @FindBy(xpath = "//label[normalize-space()='Name*']")
-    public WebElement editName;
-
 
     @FindBy(css = "[class='contact_item_details']")
     public List<WebElement> allContacts;
@@ -136,18 +102,5 @@ public class ContactsPage {
         webElement = Driver.get().findElement(By.xpath("//a[contains(.,' " +name+ "')]/../..//div//button[@class='control_button edit btn']/p[contains(.,'Confirm')]/.."));
         return webElement;
     }
-
-
-
-//    public int getIndexName(String name) {
-//        return allContacts.indexOf(name);
-//
-//    }
-
-//    public WebElement clickEditBtn(String name) {
-//
-//        return Driver.get().findElement(By.xpath("(//*[@class='control_button edit btn'])[" + getIndexName(name) + "]"));
-//    }
-
 
 }

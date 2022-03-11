@@ -64,8 +64,6 @@ public class HomePage {
     @FindBy(xpath = "//mat-icon[normalize-space()='format_list_bulleted']")
     public WebElement threeLineIcon;
 
-    //mat-icon[normalize-space()='format_list_bulleted']
-
     @FindBy(xpath= "//h3[@class='mat-subheader']//span")
     public List<WebElement> matSubheaders;
 
@@ -79,11 +77,6 @@ public class HomePage {
     public WebElement yellowBtn;
 
 
-
-
-
-
-
     public List<String> getSomeTitles(List<WebElement>headTitles) {
             List<String>stringList=new ArrayList<>();
             for (WebElement each:headTitles){
@@ -93,18 +86,4 @@ public class HomePage {
         return stringList;
     }
 
-//    public List<String> getLanguages(List<WebElement>languagesText) {
-//        List<String>stringList=new ArrayList<>();
-//        for (WebElement each:languagesText){
-//            stringList.add(each.getAttribute("innerHTML"));
-//        }
-//        return stringList;
-//    }
-//    public List<String> getMatSubheaders(List<WebElement>matSubHead) {
-//        List<String>stringList=new ArrayList<>();
-//        for (WebElement each:languagesText){
-//            stringList.add(each.getAttribute("innerHTML"));
-//        }
-//        return stringList;
-//    }
 }

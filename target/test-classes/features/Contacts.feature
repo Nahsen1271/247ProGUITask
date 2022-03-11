@@ -61,5 +61,4 @@ Feature: Contacts page
       | Bryson Summer   |
       | Adam Babyface   |
       | John Handsome   |
-      | Henry Goodman   |
-      | Finn Hardworker |
+ 
