@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Homepage
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 14.539 s <<< FAILURE! - in Homepage
+Homepage.User checks the item of the home page  Time elapsed: 8.524 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[https://mohammedzakaria2.github.io/contacts-list/apps/contacts]> but was:<[Fuse Angular - Material Design Admin Template]>
+
+Homepage.User checks language item works properly  Time elapsed: 6.014 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [User should see following languages options] is defined with 0 parameters at 'com.Pro247.stepDefinitions.HomeStepdefs.userShouldSeeFollowingLanguagesOptions()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | English |
+      | Turkish |
+
+Step text: User should see following languages options
+

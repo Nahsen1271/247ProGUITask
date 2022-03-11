@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Homepage" time="14.539" tests="2" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Freedom\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\Freedom\IdeaProjects\StudyCase_247Pro\target\test-classes;C:\Users\Freedom\IdeaProjects\StudyCase_247Pro\target\classes;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Freedom\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Freedom\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Freedom\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Freedom\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Freedom\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Freedom\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Freedom\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Freedom\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Freedom\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Freedom\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Freedom\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Freedom\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Freedom\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Freedom\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Freedom\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Freedom\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Freedom\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Freedom\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Freedom\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Freedom\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Freedom\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Freedom\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Freedom\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Freedom\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Freedom\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Freedom\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Freedom\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Freedom\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Freedom\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Freedom\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Freedom\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Freedom\AppData\Local\Temp\surefire7502461837388405618\surefirebooter10746322617272378566.jar C:\Users\Freedom\AppData\Local\Temp\surefire7502461837388405618 2022-03-08T14-59-53_375-jvmRun1 surefire3895454150335505731tmp surefire_013251258663640743137tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Freedom\IdeaProjects\StudyCase_247Pro\target\test-classes;C:\Users\Freedom\IdeaProjects\StudyCase_247Pro\target\classes;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Freedom\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Freedom\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Freedom\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Freedom\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Freedom\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Freedom\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Freedom\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Freedom\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Freedom\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Freedom\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Freedom\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Freedom\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Freedom\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Freedom\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Freedom\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Freedom\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Freedom\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Freedom\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Freedom\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Freedom\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Freedom\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Freedom\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Freedom\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Freedom\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Freedom\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Freedom\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Freedom\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Freedom\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Freedom\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Freedom\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Freedom\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Freedom\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Freedom\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Freedom\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Freedom"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Freedom\IdeaProjects\StudyCase_247Pro"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Freedom\AppData\Local\Temp\surefire7502461837388405618\surefirebooter10746322617272378566.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="Freedom"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Freedom\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Freedom\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\Users\Freedom\IdeaProjects\StudyCase_247Pro"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\apache-maven-3.6.3\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Git\cmd;C:\Users\Freedom\AppData\Local\Android\Sdk\tools;C:\Users\Freedom\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Brackets\command;%JAVA_HOME\bin;C:\Users\Freedom\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\Freedom\AppData\Local\atom\bin;C:\Users\Freedom\AppData\Local\GitHubDesktop\bin;C:\Users\Freedom\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="User checks the item of the home page" classname="Homepage" time="8.524">
+    <failure message="expected:&lt;[https://mohammedzakaria2.github.io/contacts-list/apps/contacts]&gt; but was:&lt;[Fuse Angular - Material Design Admin Template]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[https://mohammedzakaria2.github.io/contacts-list/apps/contacts]> but was:<[Fuse Angular - Material Design Admin Template]>
+]]></failure>
+    <system-out><![CDATA[Mar 08, 2022 2:59:55 PM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+
+
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+
+&amp#27;[31mfile:///C:/Users/Freedom/IdeaProjects/StudyCase_247Pro/src/test/resources/features/home.feature:32&amp#27;[0m
+# User checks the item of the home page
+
+&amp#27;[31mfile:///C:/Users/Freedom/IdeaProjects/StudyCase_247Pro/src/test/resources/features/home.feature:34&amp#27;[0m
+# User checks language item works properly
+
+
+
+2
+ Scenarios (
+&amp#27;[31m2 failed&amp#27;[0m
+)
+
+8
+ Steps (
+&amp#27;[31m2 failed&amp#27;[0m
+, 
+&amp#27;[36m1 skipped&amp#27;[0m
+, 
+&amp#27;[32m5 passed&amp#27;[0m
+)
+
+0m
+14.544s
+
+
+
+
+
+org.junit.ComparisonFailure: expected:<[https://mohammedzakaria2.github.io/contacts-list/apps/contacts]> but was:<[Fuse Angular - Material Design Admin Template]>
+
+	at org.junit.Assert.assertEquals(Assert.java:117)
+
+	at org.junit.Assert.assertEquals(Assert.java:146)
+
+	at com.Pro247.stepDefinitions.HomeStepdefs.userShouldSeeIsAsExpected(HomeStepdefs.java:66)
+
+	at ?.User should see "Contacts" "https://mohammedzakaria2.github.io/contacts-list/apps/contacts" "Fuse Angular - Material Design Admin Template" is as expected(file:///C:/Users/Freedom/IdeaProjects/StudyCase_247Pro/src/test/resources/features/home.feature:28)
+
+
+
+io.cucumber.core.exception.CucumberException: Step [User should see following languages options] is defined with 0 parameters at 'com.Pro247.stepDefinitions.HomeStepdefs.userShouldSeeFollowingLanguagesOptions()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | English |
+      | Turkish |
+
+Step text: User should see following languages options
+
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:134)
+
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+
+
+
+title = Fuse Angular - Material Design Admin Template
+expectedPageScripts = [FUSE, Charlie Adams, adams.charlie@mail.com, APPLICATIONS, Sample, Contacts, CUSTOM FUNCTION, Customize, Documentation, Changelog]
+actualOptions = [FUSE, Charlie Adams, adams.charlie@mail.com, APPLICATIONS, Sample, Contacts, CUSTOM FUNCTION, Customize, Documentation, Changelog]
+actualPageHeading = Contacts
+actualPageUrl = Fuse Angular - Material Design Admin Template
+actualPageTitle = https://mohammedzakaria2.github.io/contacts-list/apps/contacts
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 33056
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 08, 2022 2:59:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User checks language item works properly" classname="Homepage" time="6.014">
+    <error message="Step [User should see following languages options] is defined with 0 parameters at &apos;com.Pro247.stepDefinitions.HomeStepdefs.userShouldSeeFollowingLanguagesOptions()&apos;.&#10;However, the gherkin step has 1 arguments:&#10; * Table:&#10;      | English |&#10;      | Turkish |&#10;&#10;Step text: User should see following languages options" type="io.cucumber.core.exception.CucumberException"><![CDATA[io.cucumber.core.exception.CucumberException: 
+Step [User should see following languages options] is defined with 0 parameters at 'com.Pro247.stepDefinitions.HomeStepdefs.userShouldSeeFollowingLanguagesOptions()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | English |
+      | Turkish |
+
+Step text: User should see following languages options
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 20587
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 08, 2022 3:00:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
